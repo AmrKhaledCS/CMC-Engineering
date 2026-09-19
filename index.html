@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CMC — Civil, Marine &amp; Coastal Engineering Office</title>
+  <meta name="description" content="CMC is an engineering office for civil, marine and coastal projects: feasibility studies, detailed design, infrastructure design, engineering consultancy and technical supervision.">
+  <meta name="author" content="CMC — Civil, Marine &amp; Coastal Engineering Office">
+  <link rel="canonical" href="https://USERNAME.github.io/CMC-Engineering/index.html">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CMC — Civil, Marine &amp; Coastal Engineering Office">
+  <meta property="og:title" content="CMC — Civil, Marine &amp; Coastal Engineering Office">
+  <meta property="og:description" content="CMC is an engineering office for civil, marine and coastal projects: feasibility studies, detailed design, infrastructure design, engineering consultancy and technical supervision.">
+  <meta property="og:url" content="https://USERNAME.github.io/CMC-Engineering/index.html">
+  <meta property="og:image" content="https://USERNAME.github.io/CMC-Engineering/assets/images/cmc-logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ===== Top bar: edit contact details and social links here ===== -->
+  <div class="topbar">
+    <div class="container">
+      <ul class="topbar-list">
+        <li class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="m4 6 8 6 8-6"/></svg>
+          <a href="mailto:info@example.com"><span class="ph">[Company Email]</span></a>
+        </li>
+        <li class="topbar-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z"/></svg>
+          <a href="tel:+000000000000"><span class="ph">[Phone Number]</span></a>
+        </li>
+        <li class="topbar-item topbar-item--address">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+          <span class="ph">[Office Location]</span>
+        </li>
+      </ul>
+      <ul class="social" aria-label="CMC on social media">
+        <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.3 8.2h4.4V24H.3zM8.3 8.2h4.2v2.2h.06c.6-1.1 2.05-2.3 4.2-2.3 4.5 0 5.3 2.9 5.3 6.7V24h-4.4v-7.5c0-1.8 0-4.1-2.5-4.1s-2.9 2-2.9 4V24H8.3z"/></svg></a></li>
+        <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.7c0-.9.26-1.5 1.6-1.5h1.6V4.3c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.4H7.5V14h2.7v8z"/></svg></a></li>
+        <li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a></li>
+        <li><a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 12s0-3.6-.46-5.33a2.78 2.78 0 0 0-1.95-1.96C18.86 4.25 12 4.25 12 4.25s-6.86 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96C1 8.4 1 12 1 12s0 3.6.46 5.33a2.78 2.78 0 0 0 1.95 1.96c1.73.46 8.59.46 8.59.46s6.86 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96C23 15.6 23 12 23 12ZM9.75 15.27V8.73L15.5 12z"/></svg></a></li>
+            <li><a href="https://wa.me/000000000000" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.97L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.98-.14.16-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.25-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29Z"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== Main header ===== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="CMC — Civil, Marine &amp; Coastal Engineering Office, home">
+        <img src="assets/images/cmc-logo.png" alt="CMC logo" width="140" height="129">
+        <span class="brand-text">
+          <span class="brand-name">CMC</span>
+          <span class="brand-tag">Civil, Marine &amp; Coastal Engineering Office</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li class="has-dropdown">
+            <button class="nav-link dropdown-toggle" type="button" aria-expanded="false" aria-controls="services-menu">
+              Services
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="m5 8 7 7 7-7"/></svg>
+            </button>
+            <ul class="dropdown" id="services-menu">
+              <li><a href="services.html#civil-engineering">Civil Engineering</a></li>
+              <li><a href="services.html#marine-engineering">Marine Engineering</a></li>
+              <li><a href="services.html#coastal-engineering">Coastal Engineering &amp; Protection</a></li>
+              <li><a href="services.html#infrastructure-design">Infrastructure Design</a></li>
+              <li><a href="services.html#consultancy">Engineering Consultancy</a></li>
+              <li><a href="services.html#project-management">Project Management &amp; Supervision</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="index.html#process">Process</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="nav-phone" href="tel:+000000000000">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z"/></svg>
+          <span><span class="ph">[Phone Number]</span><small>Sun–Thu, office hours</small></span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+  <div class="nav-backdrop"></div>
+
+  <main id="main">
+
+    <!-- ===================== 1. Hero ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div>
+          <p class="eyebrow">CMC | Engineering Excellence</p>
+          <h1 id="hero-title">Engineering the future of civil, marine &amp; coastal infrastructure</h1>
+          <p class="hero-lead">
+            CMC is an engineering office working where land meets water. We study,
+            design and supervise civil, marine and coastal works — bringing survey
+            data, structural analysis and site experience into one coordinated set
+            of drawings your contractor can build from.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#services">Explore our services</a>
+            <a class="btn btn--ghost" href="contact.html">Discuss your project</a>
+          </div>
+          <div class="hero-meta">
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+              Design, review and site supervision
+            </span>
+            <span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>
+              Codes and standards agreed with you up front
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <!-- Replace hero.svg with a photo of a coastal or marine project (≈1200×1000) -->
+          <img src="assets/images/hero.svg" alt="Placeholder image for a coastal engineering project" width="1200" height="1000" fetchpriority="high">
+          <div class="hero-card">
+            <div>
+              <b class="ph">[XX]+</b>
+              <span>Projects delivered</span>
+            </div>
+            <div>
+              <b class="ph">[XX]+</b>
+              <span>Years of experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. Statistics ===================== -->
+    <section class="stats" aria-label="CMC in numbers">
+      <div class="container">
+        <div class="stats-grid">
+          <!-- To animate a number, replace the text with e.g. <b data-count="18" data-suffix="+">0</b> -->
+          <div class="stat">
+            <b class="ph">[XX]+</b>
+            <span>Years of experience</span>
+          </div>
+          <div class="stat">
+            <b class="ph">[XX]+</b>
+            <span>Completed projects</span>
+          </div>
+          <div class="stat">
+            <b class="ph">[XX]</b>
+            <span>Countries served</span>
+          </div>
+          <div class="stat">
+            <b class="ph">[XX]+</b>
+            <span>Clients &amp; partners</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. Why CMC ===================== -->
+    <section class="section" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Why CMC</p>
+          <h2 id="why-title">What working with our office is like</h2>
+          <p>Five things we hold ourselves to on every commission, whatever its size.</p>
+        </div>
+
+        <div class="reasons reveal">
+          <article class="reason">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 20h18"/><path d="M6 20V9l6-5 6 5v11"/><path d="M10 20v-6h4v6"/></svg></span>
+            <h3>Engineering expertise</h3>
+            <p>Civil, marine and coastal work handled by one office, so the structural, hydraulic and geotechnical sides of a project stay consistent with each other.</p>
+          </article>
+
+          <article class="reason">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 9v11"/></svg></span>
+            <h3>Quality and precision</h3>
+            <p>Calculations, drawings and specifications are checked by a second engineer before they leave the office, against the design codes agreed with you.</p>
+          </article>
+
+          <article class="reason">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg></span>
+            <h3>Practical solutions</h3>
+            <p>We look for the option that can actually be built with the plant, materials and access available on your site, then justify it with numbers.</p>
+          </article>
+
+          <article class="reason">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="9" cy="8" r="3.4"/><path d="M2 20c0-3.6 3.1-6 7-6s7 2.4 7 6"/><path d="M17 11h5M19.5 8.5v5"/></svg></span>
+            <h3>Client-focused approach</h3>
+            <p>One engineer stays responsible for your project from first meeting to handover, so you never have to re-explain the background.</p>
+          </article>
+
+          <article class="reason">
+            <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21c5-3 8-6.6 8-11a8 8 0 0 0-16 0c0 4.4 3 8 8 11Z"/><path d="M12 13c0-3 1.6-5 4-5.6"/><path d="M12 17c0-2.4-1.3-4-3.4-4.6"/></svg></span>
+            <h3>Environmental care</h3>
+            <p>Shoreline and nearshore works are assessed for their effect on sediment movement, water quality and neighbouring stretches of coast.</p>
+          </article>
+
+          <article class="reason">
+            <h3>Have drawings to review?</h3>
+            <p>Send us the concept, the survey or the tender documents and we will tell you what we would check first.</p>
+            <p><a class="link-more" href="contact.html">Talk to an engineer
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. About ===================== -->
+    <section class="section band-mist" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <!-- Replace with a photo of the office, team or a site inspection -->
+          <img src="assets/images/about-office.svg" alt="Placeholder image for the CMC office and engineering team" width="1000" height="780" loading="lazy">
+          <div class="about-badge">
+            <b class="ph">[XX]+</b>
+            <span>Years designing and supervising works on the coast and inland</span>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <p class="eyebrow">About CMC</p>
+          <h2 id="about-title">An engineering office built around civil, marine and coastal work</h2>
+          <p>
+            <span class="ph">[Company overview — replace this paragraph.]</span>
+            CMC brings civil, marine and coastal engineering together in one office.
+            The team prepares feasibility studies, detailed design, tender documents
+            and technical supervision, and works alongside surveyors, contractors and
+            authorities through each stage of a project.
+          </p>
+
+          <div class="mv-grid">
+            <div class="mv">
+              <h4>Mission</h4>
+              <p><span class="ph">[Mission statement]</span> — the standard of service and technical quality the office commits to.</p>
+            </div>
+            <div class="mv">
+              <h4>Vision</h4>
+              <p><span class="ph">[Vision statement]</span> — where the office wants to be in its field over the coming years.</p>
+            </div>
+          </div>
+
+          <a class="btn btn--primary" href="about.html">Learn more about us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. Services ===================== -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Engineering services</p>
+          <h2 id="services-title">What we can take on</h2>
+          <p>Six areas of work. Rename, reorder or remove any card — each one is a self-contained block in index.html.</p>
+        </div>
+
+        <div class="services-grid reveal">
+          <!-- SERVICE CARD — duplicate this block to add a service -->
+          <article class="service">
+            <div class="service-body">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 20h18"/><path d="M5 20V10l7-5 7 5v10"/><path d="M9 20v-5h6v5"/></svg></span>
+              <h3>Civil Engineering</h3>
+              <p>Structural and site design for buildings, retaining works, roads and drainage, including calculations, detailing and quantities.</p>
+              <p><a class="link-more" href="services.html#civil-engineering">Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-body">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 18c2 1.6 4 1.6 6 0s4-1.6 6 0 4 1.6 6 0"/><path d="M12 4v10"/><path d="M6 14h12L12 4Z"/></svg></span>
+              <h3>Marine Engineering</h3>
+              <p>Quay walls, jetties, berthing and mooring structures, slipways and marina layouts, with vessel and load data as the starting point.</p>
+              <p><a class="link-more" href="services.html#marine-engineering">Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-body">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 16c2.5-2 5-2 7.5 0s5 2 7.5 0 4-1.2 5-.4"/><path d="M2 20c2.5-2 5-2 7.5 0"/><path d="M14 11 19 4l3 5"/></svg></span>
+              <h3>Coastal Engineering &amp; Protection</h3>
+              <p>Shoreline studies, breakwaters, revetments, groynes and beach nourishment, based on wave, tide and sediment transport analysis.</p>
+              <p><a class="link-more" href="services.html#coastal-engineering">Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-body">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 21V8l8-5 8 5v13"/><path d="M4 13h16M12 3v18"/></svg></span>
+              <h3>Infrastructure Design</h3>
+              <p>Roads, bridges, culverts and utility corridors, coordinated with the survey and with the services already in the ground.</p>
+              <p><a class="link-more" href="services.html#infrastructure-design">Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-body">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 3h14v18H5z"/><path d="M9 8h6M9 12h6M9 16h4"/></svg></span>
+              <h3>Engineering Consultancy</h3>
+              <p>Feasibility studies, design review, second opinions, value engineering and technical reports for owners, insurers and authorities.</p>
+              <p><a class="link-more" href="services.html#consultancy">Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+
+          <article class="service">
+            <div class="service-body">
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3 3 7l9 4 9-4-9-4Z"/><path d="M3 13l9 4 9-4"/><path d="M3 17l9 4 9-4"/></svg></span>
+              <h3>Project Management &amp; Supervision</h3>
+              <p>Tender support, programme and cost monitoring, site inspection, quality control and handover documentation.</p>
+              <p><a class="link-more" href="services.html#project-management">Learn more
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. Process ===================== -->
+    <section class="band-deep process" id="process" aria-labelledby="process-title">
+      <svg class="waterline waterline--white" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0h1440v12c-240 28-480-4-720 10C480 32 240 38 0 22Z"/></svg>
+      <div class="container section section--tight">
+        <div class="section-head reveal">
+          <p class="eyebrow">Our engineering process</p>
+          <h2 id="process-title">How a project moves through the office</h2>
+          <p>Four stages. You get a named engineer, a written scope and a drawing schedule at the end of the first one.</p>
+        </div>
+
+        <ol class="steps reveal" style="list-style:none;padding:0;margin:0">
+          <li class="step">
+            <span class="step-num">01</span>
+            <h3>Consultation &amp; requirements</h3>
+            <p>We review your site data, constraints and objectives, agree the design codes, and set out the scope, programme and fee.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">02</span>
+            <h3>Planning &amp; engineering design</h3>
+            <p>Concept options are compared, then the chosen option is developed into calculations, drawings and specifications.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">03</span>
+            <h3>Execution &amp; technical supervision</h3>
+            <p>During construction we answer site queries, inspect the works and check that what is built matches the approved design.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">04</span>
+            <h3>Delivery &amp; quality review</h3>
+            <p>Final inspection, as-built records and a close-out report covering testing, snags and maintenance recommendations.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== 7. Featured projects ===================== -->
+    <section class="section band-soft" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="projects-head reveal">
+          <div class="section-head" style="margin-bottom:0">
+            <p class="eyebrow">Featured projects</p>
+            <h2 id="projects-title">Selected work</h2>
+            <p>Six placeholder cards, ready for real projects. Each card carries its own name, location, category, year, description and image.</p>
+          </div>
+          <a class="btn btn--ghost" href="projects.html">View all projects</a>
+        </div>
+
+        <div class="filters" data-filters role="group" aria-label="Filter projects by category">
+          <button class="filter" type="button" data-filter="all" aria-pressed="true">All projects</button>
+          <button class="filter" type="button" data-filter="civil" aria-pressed="false">Civil engineering</button>
+          <button class="filter" type="button" data-filter="marine" aria-pressed="false">Marine engineering</button>
+          <button class="filter" type="button" data-filter="coastal" aria-pressed="false">Coastal engineering</button>
+        </div>
+        <p class="visually-hidden" id="filter-status" role="status"></p>
+
+        <div class="projects-grid">
+          <!-- PROJECT CARD — duplicate this block for each real project.
+               data-category must be one of: civil | marine | coastal -->
+          <article class="project reveal" data-category="marine"
+                   data-meta="[Project Location] · [Project Category] · [Project Year]"
+                   data-detail="[Longer project description — scope of work, structures involved, CMC's role and the stages covered.]">
+            <figure>
+              <img src="assets/images/projects/project-01.svg" alt="Placeholder image for project 01" width="900" height="680" loading="lazy">
+              <figcaption class="project-tag"><span class="ph">[Project Category]</span></figcaption>
+            </figure>
+            <div class="project-body">
+              <h3><span class="ph">[Project Name]</span></h3>
+              <div class="project-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ph">[Project Year]</span></span>
+              </div>
+              <p><span class="ph">[Short project description]</span></p>
+              <a class="link-more" href="#" data-project-open>View details
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="civil"
+                   data-meta="[Project Location] · [Project Category] · [Project Year]"
+                   data-detail="[Longer project description — scope of work, structures involved, CMC's role and the stages covered.]">
+            <figure>
+              <img src="assets/images/projects/project-02.svg" alt="Placeholder image for project 02" width="900" height="680" loading="lazy">
+              <figcaption class="project-tag"><span class="ph">[Project Category]</span></figcaption>
+            </figure>
+            <div class="project-body">
+              <h3><span class="ph">[Project Name]</span></h3>
+              <div class="project-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ph">[Project Year]</span></span>
+              </div>
+              <p><span class="ph">[Short project description]</span></p>
+              <a class="link-more" href="#" data-project-open>View details
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="coastal"
+                   data-meta="[Project Location] · [Project Category] · [Project Year]"
+                   data-detail="[Longer project description — scope of work, structures involved, CMC's role and the stages covered.]">
+            <figure>
+              <img src="assets/images/projects/project-03.svg" alt="Placeholder image for project 03" width="900" height="680" loading="lazy">
+              <figcaption class="project-tag"><span class="ph">[Project Category]</span></figcaption>
+            </figure>
+            <div class="project-body">
+              <h3><span class="ph">[Project Name]</span></h3>
+              <div class="project-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ph">[Project Year]</span></span>
+              </div>
+              <p><span class="ph">[Short project description]</span></p>
+              <a class="link-more" href="#" data-project-open>View details
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="coastal"
+                   data-meta="[Project Location] · [Project Category] · [Project Year]"
+                   data-detail="[Longer project description — scope of work, structures involved, CMC's role and the stages covered.]">
+            <figure>
+              <img src="assets/images/projects/project-04.svg" alt="Placeholder image for project 04" width="900" height="680" loading="lazy">
+              <figcaption class="project-tag"><span class="ph">[Project Category]</span></figcaption>
+            </figure>
+            <div class="project-body">
+              <h3><span class="ph">[Project Name]</span></h3>
+              <div class="project-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ph">[Project Year]</span></span>
+              </div>
+              <p><span class="ph">[Short project description]</span></p>
+              <a class="link-more" href="#" data-project-open>View details
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="marine"
+                   data-meta="[Project Location] · [Project Category] · [Project Year]"
+                   data-detail="[Longer project description — scope of work, structures involved, CMC's role and the stages covered.]">
+            <figure>
+              <img src="assets/images/projects/project-05.svg" alt="Placeholder image for project 05" width="900" height="680" loading="lazy">
+              <figcaption class="project-tag"><span class="ph">[Project Category]</span></figcaption>
+            </figure>
+            <div class="project-body">
+              <h3><span class="ph">[Project Name]</span></h3>
+              <div class="project-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ph">[Project Year]</span></span>
+              </div>
+              <p><span class="ph">[Short project description]</span></p>
+              <a class="link-more" href="#" data-project-open>View details
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="civil"
+                   data-meta="[Project Location] · [Project Category] · [Project Year]"
+                   data-detail="[Longer project description — scope of work, structures involved, CMC's role and the stages covered.]">
+            <figure>
+              <img src="assets/images/projects/project-06.svg" alt="Placeholder image for project 06" width="900" height="680" loading="lazy">
+              <figcaption class="project-tag"><span class="ph">[Project Category]</span></figcaption>
+            </figure>
+            <div class="project-body">
+              <h3><span class="ph">[Project Name]</span></h3>
+              <div class="project-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span class="ph">[Project Year]</span></span>
+              </div>
+              <p><span class="ph">[Short project description]</span></p>
+              <a class="link-more" href="#" data-project-open>View details
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            </div>
+          </article>
+        </div>
+
+        <p class="note">All six cards are placeholders. Replace the bracketed text and the images in <code>assets/images/projects/</code> before publishing.</p>
+      </div>
+    </section>
+
+    <!-- Project detail dialog: content is read from the card that opened it -->
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" data-dialog-close aria-label="Close">✕</button>
+      <img id="dialog-image" src="assets/images/projects/project-01.svg" alt="" width="900" height="680">
+      <div class="dialog-body">
+        <h3 id="dialog-title">Project</h3>
+        <p class="project-meta" id="dialog-meta"></p>
+        <p id="dialog-text"></p>
+      </div>
+    </dialog>
+
+    <!-- ===================== 8. Mid-page CTA ===================== -->
+    <section class="cta-banner" aria-labelledby="cta-title">
+      <div class="container cta-inner">
+        <div>
+          <h2 id="cta-title">Have an engineering project in mind?</h2>
+          <p>Let's discuss your project requirements and explore how CMC can help bring your vision to life.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn--light" href="contact.html">Contact our team</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 9. CEO message ===================== -->
+    <section class="section" id="ceo" aria-labelledby="ceo-title">
+      <div class="container ceo-grid">
+        <div class="reveal">
+          <!-- Replace with the CEO portrait, ideally 5:6 -->
+          <img class="ceo-photo" src="assets/images/ceo-portrait.svg" alt="Placeholder for the CEO portrait" width="700" height="840" loading="lazy">
+        </div>
+        <div class="reveal">
+          <p class="eyebrow">Message from our CEO</p>
+          <h2 id="ceo-title" class="visually-hidden">Message from our CEO</h2>
+          <span class="ceo-mark" aria-hidden="true">“</span>
+          <blockquote class="ceo-quote">
+            <span class="ph">[CEO message — two or three sentences on the office's approach, its responsibility to clients and what it aims to build.]</span>
+          </blockquote>
+          <div class="ceo-sign">
+            <div>
+              <b class="ph">[CEO Name]</b>
+              <span class="ph">[CEO Title]</span>
+            </div>
+          </div>
+          <p class="note">This section is a placeholder. Replace the name, title, photo and message, or delete the whole <code>#ceo</code> section.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 10. Clients & partners ===================== -->
+    <section class="section section--tight band-mist" aria-labelledby="clients-title">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <h2 id="clients-title">Clients &amp; partners</h2>
+          <p>Six logo slots, ready for the organisations CMC has actually worked with.</p>
+        </div>
+        <div class="logo-row reveal">
+          <div class="logo-slot"><img src="assets/images/client-01.svg" alt="Placeholder for client logo 1" width="260" height="90" loading="lazy"></div>
+          <div class="logo-slot"><img src="assets/images/client-02.svg" alt="Placeholder for client logo 2" width="260" height="90" loading="lazy"></div>
+          <div class="logo-slot"><img src="assets/images/client-03.svg" alt="Placeholder for client logo 3" width="260" height="90" loading="lazy"></div>
+          <div class="logo-slot"><img src="assets/images/client-04.svg" alt="Placeholder for client logo 4" width="260" height="90" loading="lazy"></div>
+          <div class="logo-slot"><img src="assets/images/client-05.svg" alt="Placeholder for client logo 5" width="260" height="90" loading="lazy"></div>
+          <div class="logo-slot"><img src="assets/images/client-06.svg" alt="Placeholder for client logo 6" width="260" height="90" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 11. Certifications ===================== -->
+    <section class="section" id="certifications" aria-labelledby="cert-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Credibility</p>
+          <h2 id="cert-title">Certifications &amp; professional accreditations</h2>
+          <p>Add only accreditations the office genuinely holds, with the issuing body and registration number where one exists.</p>
+        </div>
+        <div class="cert-grid reveal">
+          <article class="cert">
+            <img src="assets/images/cert-01.svg" alt="Placeholder for a certification logo" width="120" height="120" loading="lazy">
+            <h3 class="ph">[Certification Name]</h3>
+            <p class="ph">[Issuing Organization]</p>
+            <small class="ph">[Certification Number]</small>
+          </article>
+          <article class="cert">
+            <img src="assets/images/cert-02.svg" alt="Placeholder for a certification logo" width="120" height="120" loading="lazy">
+            <h3 class="ph">[Certification Name]</h3>
+            <p class="ph">[Issuing Organization]</p>
+            <small class="ph">[Certification Number]</small>
+          </article>
+          <article class="cert">
+            <img src="assets/images/cert-03.svg" alt="Placeholder for a certification logo" width="120" height="120" loading="lazy">
+            <h3 class="ph">[Certification Name]</h3>
+            <p class="ph">[Issuing Organization]</p>
+            <small class="ph">[Certification Number]</small>
+          </article>
+          <article class="cert">
+            <img src="assets/images/cert-04.svg" alt="Placeholder for a certification logo" width="120" height="120" loading="lazy">
+            <h3 class="ph">[Certification Name]</h3>
+            <p class="ph">[Issuing Organization]</p>
+            <small class="ph">[Certification Number]</small>
+          </article>
+        </div>
+        <p class="note">Nothing here is verified. Remove any card you cannot evidence — unsupported accreditation claims carry real legal risk.</p>
+      </div>
+    </section>
+
+    <!-- ===================== 12. Testimonials ===================== -->
+    <section class="section band-mist testimonials" aria-labelledby="testi-title">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow" style="justify-content:center">What clients say</p>
+          <h2 id="testi-title">Client testimonials</h2>
+          <p>Three placeholder quotes. Replace them with written permission from the client.</p>
+        </div>
+
+        <div data-slider>
+          <div class="slider" aria-roledescription="carousel" aria-label="Client testimonials">
+            <div class="slides">
+              <div class="slide">
+                <figure class="quote-card">
+                  <blockquote><span class="ph">[Testimonial text — what the client asked for, how the office handled it and what the outcome was.]</span></blockquote>
+                  <figcaption class="quote-person">
+                    <img src="assets/images/avatar-01.svg" alt="" width="120" height="120" loading="lazy">
+                    <span>
+                      <b class="ph">[Client Name]</b>
+                      <span class="ph">[Client Position]</span>, <span class="ph">[Company Name]</span>
+                    </span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="slide">
+                <figure class="quote-card">
+                  <blockquote><span class="ph">[Testimonial text — what the client asked for, how the office handled it and what the outcome was.]</span></blockquote>
+                  <figcaption class="quote-person">
+                    <img src="assets/images/avatar-02.svg" alt="" width="120" height="120" loading="lazy">
+                    <span>
+                      <b class="ph">[Client Name]</b>
+                      <span class="ph">[Client Position]</span>, <span class="ph">[Company Name]</span>
+                    </span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="slide">
+                <figure class="quote-card">
+                  <blockquote><span class="ph">[Testimonial text — what the client asked for, how the office handled it and what the outcome was.]</span></blockquote>
+                  <figcaption class="quote-person">
+                    <img src="assets/images/avatar-03.svg" alt="" width="120" height="120" loading="lazy">
+                    <span>
+                      <b class="ph">[Client Name]</b>
+                      <span class="ph">[Client Position]</span>, <span class="ph">[Company Name]</span>
+                    </span>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn" type="button" data-slide-prev aria-label="Previous testimonial">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+            </button>
+            <div class="slider-dots" role="tablist" aria-label="Choose testimonial"></div>
+            <button class="slider-btn" type="button" data-slide-next aria-label="Next testimonial">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 13. Current work (optional section) ===================== -->
+    <section class="section" id="current-work" aria-labelledby="current-title">
+      <div class="container">
+        <div class="projects-head reveal">
+          <div class="section-head" style="margin-bottom:0">
+            <p class="eyebrow">Ongoing work</p>
+            <h2 id="current-title">Current projects</h2>
+            <p><span class="ph">[Number of Ongoing Projects]</span> projects are active. Delete the whole <code>#current-work</code> section if you would rather not publish this.</p>
+          </div>
+        </div>
+        <div class="work-grid reveal">
+          <article class="work-item">
+            <span class="status-pill ph">[Project Status]</span>
+            <h3 class="ph">[Project Name]</h3>
+            <div class="project-meta">
+              <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+            </div>
+            <div class="progress"><i style="width:0%"></i></div>
+            <div class="progress-label"><span>Progress</span><span class="ph">[%]</span></div>
+          </article>
+          <article class="work-item">
+            <span class="status-pill ph">[Project Status]</span>
+            <h3 class="ph">[Project Name]</h3>
+            <div class="project-meta">
+              <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+            </div>
+            <div class="progress"><i style="width:0%"></i></div>
+            <div class="progress-label"><span>Progress</span><span class="ph">[%]</span></div>
+          </article>
+          <article class="work-item">
+            <span class="status-pill ph">[Project Status]</span>
+            <h3 class="ph">[Project Name]</h3>
+            <div class="project-meta">
+              <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></svg><span class="ph">[Project Location]</span></span>
+            </div>
+            <div class="progress"><i style="width:0%"></i></div>
+            <div class="progress-label"><span>Progress</span><span class="ph">[%]</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 14. News & insights ===================== -->
+    <section class="section band-soft" id="news" aria-labelledby="news-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">News &amp; insights</p>
+          <h2 id="news-title">Writing from the office</h2>
+          <p>Three article cards. Point each link at its own HTML page when you publish something.</p>
+        </div>
+        <div class="news-grid reveal">
+          <article class="article">
+            <img src="assets/images/news-01.svg" alt="Placeholder image for article 1" width="900" height="560" loading="lazy">
+            <div class="article-body">
+              <p class="article-meta"><span class="ph">[Article Category]</span><span class="ph">[Publication Date]</span></p>
+              <h3><span class="ph">[Article Title]</span></h3>
+              <p><span class="ph">[Short excerpt — two lines summarising the article.]</span></p>
+              <p><a class="link-more" href="#"><span class="ph">[Article Link]</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+          <article class="article">
+            <img src="assets/images/news-02.svg" alt="Placeholder image for article 2" width="900" height="560" loading="lazy">
+            <div class="article-body">
+              <p class="article-meta"><span class="ph">[Article Category]</span><span class="ph">[Publication Date]</span></p>
+              <h3><span class="ph">[Article Title]</span></h3>
+              <p><span class="ph">[Short excerpt — two lines summarising the article.]</span></p>
+              <p><a class="link-more" href="#"><span class="ph">[Article Link]</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+          <article class="article">
+            <img src="assets/images/news-03.svg" alt="Placeholder image for article 3" width="900" height="560" loading="lazy">
+            <div class="article-body">
+              <p class="article-meta"><span class="ph">[Article Category]</span><span class="ph">[Publication Date]</span></p>
+              <h3><span class="ph">[Article Title]</span></h3>
+              <p><span class="ph">[Short excerpt — two lines summarising the article.]</span></p>
+              <p><a class="link-more" href="#"><span class="ph">[Article Link]</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
+            </div>
+          </article>
+        </div>
+        <p class="note">Suggested categories: Engineering Insights · Marine &amp; Coastal Engineering · Infrastructure &amp; Innovation.</p>
+      </div>
+    </section>
+
+    <!-- ===================== 15. Map (optional section) ===================== -->
+    <section class="section section--tight" id="map" aria-labelledby="map-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Where we work</p>
+          <h2 id="map-title">Offices &amp; project locations</h2>
+          <p>Replace the image below with a Google Maps embed — instructions are in README.md, step 9. No API key is needed for a standard embed.</p>
+        </div>
+        <div class="map-frame reveal">
+          <img src="assets/images/map-placeholder.svg" alt="Placeholder for a map of CMC offices and project locations" width="1400" height="620" loading="lazy">
+        </div>
+        <ul class="map-legend reveal">
+          <li><b class="ph">[Branch Name]</b><span class="ph">[Office Location]</span></li>
+          <li><b class="ph">[Branch Name]</b><span class="ph">[Office Location]</span></li>
+          <li><b class="ph">[Project Location]</b><span>Project site</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== 16. Contact ===================== -->
+    <section class="section band-mist" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Tell us about the project</h2>
+          <p>Send the site location, what you need designed or reviewed, and your programme. We will reply with the questions we need answered to quote.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="m4 6 8 6 8-6"/></svg></span>
+              <span><b>Email</b><a href="mailto:info@example.com"><span class="ph">[Company Email]</span></a></span>
+            </li>
+            <li>
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z"/></svg></span>
+              <span><b>Phone</b><a href="tel:+000000000000"><span class="ph">[Company Phone]</span></a></span>
+            </li>
+            <li>
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
+              <span><b>Office</b><span class="ph">[Office Address]</span></span>
+            </li>
+            <li>
+              <span class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <span><b>Business hours</b><span class="ph">[Business Hours]</span></span>
+            </li>
+          </ul>
+
+          <ul class="social" aria-label="CMC on social media">
+            <li><a href="#" aria-label="LinkedIn" style="color:var(--brand)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.3 8.2h4.4V24H.3zM8.3 8.2h4.2v2.2h.06c.6-1.1 2.05-2.3 4.2-2.3 4.5 0 5.3 2.9 5.3 6.7V24h-4.4v-7.5c0-1.8 0-4.1-2.5-4.1s-2.9 2-2.9 4V24H8.3z"/></svg></a></li>
+            <li><a href="#" aria-label="Facebook" style="color:var(--brand)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.7c0-.9.26-1.5 1.6-1.5h1.6V4.3c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.4H7.5V14h2.7v8z"/></svg></a></li>
+            <li><a href="#" aria-label="Instagram" style="color:var(--brand)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a></li>
+            <li><a href="https://wa.me/000000000000" aria-label="WhatsApp" style="color:var(--brand)"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.97L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.98-.14.16-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.25-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29Z"/></svg></a></li>
+          </ul>
+        </div>
+
+        <div class="form-card reveal">
+          <h2>Send us the details</h2>
+          <p>There is no contact form on this site. Write or call the office directly and your enquiry reaches an engineer straight away.</p>
+          <p>Please include:</p>
+          <ul class="check-list">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Site location, and a survey or sketch if you have one</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>What needs designing, reviewing or supervising</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>Your programme and any deadline you are working to</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="mailto:info@example.com">Email the office</a>
+            <a class="btn btn--ghost" href="tel:+000000000000">Call the office</a>
+            <a class="btn btn--ghost" href="https://wa.me/000000000000">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <img src="assets/images/cmc-logo-light.png" alt="CMC — Civil, Marine &amp; Coastal Engineering Office" width="180" height="166" loading="lazy">
+          <p>An engineering office working across civil, marine and coastal projects — from early feasibility and design through to supervision on site.</p>
+          <ul class="social" aria-label="CMC on social media">
+            <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.3 8.2h4.4V24H.3zM8.3 8.2h4.2v2.2h.06c.6-1.1 2.05-2.3 4.2-2.3 4.5 0 5.3 2.9 5.3 6.7V24h-4.4v-7.5c0-1.8 0-4.1-2.5-4.1s-2.9 2-2.9 4V24H8.3z"/></svg></a></li>
+            <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.7c0-.9.26-1.5 1.6-1.5h1.6V4.3c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.4H7.5V14h2.7v8z"/></svg></a></li>
+            <li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg></a></li>
+            <li><a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 12s0-3.6-.46-5.33a2.78 2.78 0 0 0-1.95-1.96C18.86 4.25 12 4.25 12 4.25s-6.86 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96C1 8.4 1 12 1 12s0 3.6.46 5.33a2.78 2.78 0 0 0 1.95 1.96c1.73.46 8.59.46 8.59.46s6.86 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96C23 15.6 23 12 23 12ZM9.75 15.27V8.73L15.5 12z"/></svg></a></li>
+            <li><a href="https://wa.me/000000000000" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.97L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.18 8.18 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.98-.14.16-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.12-.15.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.25-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29Z"/></svg></a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Quick links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="index.html#process">Process</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Our services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#civil-engineering">Civil Engineering</a></li>
+            <li><a href="services.html#marine-engineering">Marine Engineering</a></li>
+            <li><a href="services.html#coastal-engineering">Coastal Engineering &amp; Protection</a></li>
+            <li><a href="services.html#infrastructure-design">Infrastructure Design</a></li>
+            <li><a href="services.html#consultancy">Engineering Consultancy</a></li>
+            <li><a href="services.html#project-management">Project Management &amp; Supervision</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Get in touch</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="m4 6 8 6 8-6"/></svg>
+              <a href="mailto:info@example.com"><span class="ph">[Company Email]</span></a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4Z"/></svg>
+              <a href="tel:+000000000000"><span class="ph">[Phone Number]</span></a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+              <span class="ph">[Office Address]</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Branch offices: duplicate a block per office, or delete the whole section -->
+      <div class="footer-branches">
+        <div>
+          <b><span class="ph">[Branch Name]</span></b>
+          <p><span class="ph">[Branch Address]</span> · <span class="ph">[Branch Phone]</span></p>
+        </div>
+        <div>
+          <b><span class="ph">[Branch Name]</span></b>
+          <p><span class="ph">[Branch Address]</span> · <span class="ph">[Branch Phone]</span></p>
+        </div>
+        <div class="footer-accred">
+          <img src="assets/images/cert-01.svg" alt="Placeholder for a professional accreditation logo" width="46" height="46" loading="lazy">
+          <p><span class="ph">[Accreditation or engineering syndicate logo]</span></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> CMC — Civil, Marine &amp; Coastal Engineering Office. All rights reserved.</p>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="index.html#map">View on map</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+  </button>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

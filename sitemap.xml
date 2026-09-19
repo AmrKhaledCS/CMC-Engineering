@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace USERNAME with your GitHub username, or swap the whole domain for a custom one. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://USERNAME.github.io/CMC-Engineering/</loc><priority>1.0</priority></url>
+  <url><loc>https://USERNAME.github.io/CMC-Engineering/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://USERNAME.github.io/CMC-Engineering/services.html</loc><priority>0.8</priority></url>
+  <url><loc>https://USERNAME.github.io/CMC-Engineering/projects.html</loc><priority>0.8</priority></url>
+  <url><loc>https://USERNAME.github.io/CMC-Engineering/contact.html</loc><priority>0.7</priority></url>
+  <url><loc>https://USERNAME.github.io/CMC-Engineering/privacy-policy.html</loc><priority>0.2</priority></url>
+  <url><loc>https://USERNAME.github.io/CMC-Engineering/terms.html</loc><priority>0.2</priority></url>
+</urlset>

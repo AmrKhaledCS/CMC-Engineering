@@ -1,0 +1,6 @@
+# CMC — Civil, Marine & Coastal Engineering Office
+# Replace USERNAME with your GitHub username (or your custom domain) before publishing.
+User-agent: *
+Allow: /
+
+Sitemap: https://USERNAME.github.io/CMC-Engineering/sitemap.xml
